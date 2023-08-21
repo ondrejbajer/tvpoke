@@ -1,0 +1,26 @@
+<script type="application/ld+json">
+{ "@context": "https://schema.org", 
+ "@type": "Article",
+ "headline": "<heading>",
+ "image": "<FEATURED IMAGE>",
+ "datePublished": "<date_gmt>",
+ "dateModified": "<modified_gmt>",
+ "author": {
+			"@type": "Person",
+			"name": "<Author name / nevidím v jsonu>",
+			"url": "<author/href>",
+			"image": "<Author img / nevidím v jsonu>", 
+   "description": "<Author description / nevidím v jsonu>"
+		              },  
+  "mainEntityOfPage": "<URL článku / nevidím v jsonu>",
+  "commentCount": "<Počet komentářů v článku / nevidím v jsonu>",
+"publisher": {
+    "@type": "Organization",
+    "name": "TVPoke.cz",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "<Logo webu>"
+    }
+  }
+ }
+</script>
