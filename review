@@ -1,0 +1,33 @@
+<script type="application/ld+json">
+                  {
+                    "@context": "https://schema.org/",
+                    "@type": "Review",
+                    "reviewBody": "<CF: perex/perex>",
+                    "datePublished": "<date_gmt>",
+                    "dateModified": "<modified_gmt>",
+                    "sameAs": "<CF: Hlavička  / 1. affiliate odkaz >",
+                    "commentCount": "<Počet komentářů u review>",
+                  "itemReviewed": {
+                    "@type": "Organization",
+                    "name": "<Název streamovací služby>",
+                    "logo": "<Logo strmovací služby>",
+                    "description": "<CF: Recenze / Konečné hodnocení>"
+                  },
+                  "author": {
+			              "@type": "Person",
+			              "name": "<author name>",
+			              "url": "<url autora>",
+			              "logo": "<img autora>",
+		              },
+                  "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "<CF: Recenze / Celkové hodnocení>",
+                    "bestRating": "100"
+                    "worstRating": "0"
+                  },
+                  "publisher": {
+                    "@type": "Organization",
+                    "name": "tvpoke.cz"
+                  }
+                }
+</script>
