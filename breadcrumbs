@@ -1,0 +1,23 @@
+//notes: vždy dosadím podstránky a poslední item v listu nemá url 
+
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "<heading podstránky>",
+        "item": "<url podstránky>"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "<heading podstránky>",
+        "item": "<url podstránky>"
+      },{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "<heading aktuální stránky>"
+      }]
+    }
+  </script>
