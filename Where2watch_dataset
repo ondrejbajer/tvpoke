@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "name":"Kde sledovat film [movie-name] z roku [rok-vydání]",
+  "description":"Dataset obsahující seznam stremovacích platforem a internetových televizí, kde je možné sledovat film [movie-name] z roku [rok-vydání]. Krom cen dataset obsahuje i ceny za předplatné, koupi nebo půjčovné za film.",
+  "url": "[url-detailu-filmu]",
+  "keywords": ["Kde sledovat [movie-name], Kde se podívat na [movie-name], Kde půjčit si film [movie-name], Kde koupit film [movie-name], Kde dávají [movie-name], Where to watch [movie-name]"],
+  "creator": {
+    "@type": "Organization",
+    "name": "[název společnosti, která produkuje film]",
+  },  
+  "provider": {
+    "@type": "Organization",
+    "name":"TVPoke.cz",
+    "url":"https:\/\/tvpoke.cz",
+    "logo":"<URL - Logo webu>"
+  }
+}
+</script>
