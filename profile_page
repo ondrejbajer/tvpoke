@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "dateCreated": "[datum a čas vytvoření usera]", //format "2024-12-23T12:34:00-05:00"    
+      "dateModified": "[datuma  čas polsedního příspěvku]", //format "2024-12-23T12:34:00-05:00"    
+      "mainEntity": {
+        "@type": "Person",
+        "name": "[jmeno přijmení]",
+        "agentInteractionStatistic": {
+          "@type": "InteractionCounter",
+          "interactionType": "https://schema.org/WriteAction",
+          "userInteractionCount": [číslovka, počet zpravovaných filmů]
+        },
+        "description": "[popis autora]",
+        "image": "[url na img autora]",
+        "sameAs": [
+          "[socialni sit 1]",
+          "[sovialni sit 2]"
+        ]
+      }
+    }
+    </script>
